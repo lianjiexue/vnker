@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/gochat
+    username: root
+    password: root
+    hibernate.ddl-auto: update
+    show-sql: true
